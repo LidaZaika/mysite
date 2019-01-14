@@ -1,0 +1,143 @@
+body {
+    background: url("images/soap.png") no-repeat right top, linear-gradient(to right, #6eafe4, #fcfbfa 80%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: Baumans;
+    font-size: 60px;
+    z-index: 1;
+    position: relative;
+
+}
+h2{
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.back {
+        background-color: #6eafe4;
+        height: 100px;
+        position: absolute;
+        width: 440px;
+        margin-left: 50px;
+        z-index: 1;
+}
+.menuAll {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(68, 115, 185);
+    font-size: 24px;
+    width: 40%;
+    padding-top: 2%;
+}
+a {
+    
+    text-decoration: none;
+}
+a:link {
+    color:  rgb(68, 115, 185); /* Цвет ссылок */
+   }
+   a:visited {
+    color:   rgb(68, 115, 185); /* Цвет посещенных ссылок */
+   }
+
+   a:hover {
+       color: #6eafe4;
+   }
+    a:active {
+       color: #6eafe4;
+   }
+.shadow {
+    background-image: url('images/Myprofile.jpg');
+    width: 250px;
+    height: 450px;
+    right: 0;
+    box-shadow: 0 0 8px 8px white inset;
+    position: absolute;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.aboutMe {
+    width: 61%;
+    color: rgb(68, 115, 185);
+    font-size: 20px;
+    line-height: 2;
+    padding-top: 5%;
+}
+.myProject {
+    margin-top: 160px;
+    color: rgb(68, 115, 185);
+    font-size: 20px;
+    line-height: 2;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.footer-line {
+    border-top: 7px solid rgb(68, 115, 185);
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(68, 115, 185);
+    margin-left: 3%;
+    margin-right: 25%;
+}
+.contacts {
+    line-height: 2;
+    padding-top: 5%;
+}
+.menu-footer{
+    line-height: 2;
+    padding-top: 5%;
+}
+.form {
+    padding-right: 5%;
+}
+#submit {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px;
+    text-decoration: none;
+    box-shadow: 0px 1px 3px #666666;
+    -webkit-box-shadow: 0px 1px 3px #666666;
+    -moz-box-shadow: 0px 1px 3px #666666;
+    text-shadow: 1px 1px 3px #666666;
+    background:rgb(68, 115, 185);
+    cursor: pointer;
+    }
+     
+    #submit:hover {
+     background: #6eafe4;
+     background: #6eafe4;
+    }
+    #respond input[type=text], textarea {
+     -webkit-transition: all 0.30s ease-in-out;
+     -moz-transition: all 0.30s ease-in-out;
+     -ms-transition: all 0.30s ease-in-out;
+     -o-transition: all 0.30s ease-in-out;
+     outline: none;
+     padding: 3px 0px 3px 3px;
+     border: 1px solid #DDDDDD;
+    }
+    #respond input[type=text]:focus, textarea:focus {
+     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+     border: 1px solid rgba(81, 203, 238, 1);
+    }
